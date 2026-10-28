@@ -64,8 +64,8 @@ function resetVectorBackend() {
 // ==================== CONFIG ====================
 
 const CONFIG = {
-  BACKEND_URL: 'https://helix.millyweb.com',
-  API_KEY: 'REDACTED',
+  BACKEND_URL: 'https://helix.example.com'  // your Helix backend,
+  API_KEY: '',  // set your backend API key on the extension's options page
   FLUSH_INTERVAL_MINUTES: 2,
   EXTENSION_VERSION: '1.4.1',
 };

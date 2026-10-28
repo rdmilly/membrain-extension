@@ -30,7 +30,7 @@
 
   // ==================== CONFIG ====================
   const BACKEND_URL = 'https://helix.millyweb.com';
-  const API_KEY = 'REDACTED';
+  const API_KEY = '';  // backend API key, set for your own deployment
 
   const SHARD_ENDPOINT  = '/api/v1/context/shard/recent';
   const INJECT_ENDPOINT = '/api/v1/context/inject';

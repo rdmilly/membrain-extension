@@ -15,7 +15,7 @@
   window.__membrainCortexActInstalled = true;
 
   const BACKEND_URL      = 'https://helix.millyweb.com';
-  const API_KEY          = 'REDACTED';
+  const API_KEY          = '';  // backend API key, set for your own deployment
   const INJECT_ENDPOINT  = '/api/v1/context/inject';
   const CLASSIFY_ENDPOINT = '/api/v1/context/classify';
   const LOG_ENDPOINT     = '/api/v1/actions/log';

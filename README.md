@@ -1,14 +1,15 @@
-# 🧠 MemBrain
+# MemBrain
 
-> Chrome extension that gives AI conversations persistent memory — captures, compresses, and injects context across Claude, ChatGPT, Gemini, and Perplexity.
+> Chrome extension that gives AI conversations persistent memory. It captures, compresses, and injects context across Claude, ChatGPT, Gemini, and Perplexity.
 
-**In plain English:** Every time you start a new AI chat, MemBrain automatically provides the AI with relevant context from your past sessions. No copy-pasting history. No re-explaining yourself. It runs entirely in your browser — nothing stored externally.
+**In plain English:** Every time you start a new AI chat, MemBrain automatically provides the AI with relevant context from your past sessions. No copy-pasting history. No re-explaining yourself. It runs entirely in your browser, and long-term memory goes to a backend you host yourself (Helix).
 
-[![CI](https://github.com/rdmilly/membrain/actions/workflows/ci.yml/badge.svg)](https://github.com/rdmilly/membrain/actions/workflows/ci.yml)
-![Version](https://img.shields.io/badge/version-0.6.0-blue?style=flat-square)
+![Version](https://img.shields.io/badge/version-1.4.1-blue?style=flat-square)
 ![MV3](https://img.shields.io/badge/Chrome-MV3-red?style=flat-square)
 
-**[🌐 Download & Dashboard →](https://helixmaster.millyweb.com)**
+
+
+> Public copy of my private working repo. API keys and server addresses are removed, and the history is otherwise unchanged. To run it, point `BACKEND_URL` at your own Helix backend and set the API key on the options page.
 
 ---
 
@@ -52,4 +53,4 @@ Backend: [Helix Cortex](https://github.com/rdmilly/helix)
 
 ## Builder
 
-Ryan Milly — [ryanmilly.com](https://ryanmilly.com) · [LinkedIn](https://linkedin.com/in/rdmilly)
+Ryan Milly, [ryanmilly.com](https://ryanmilly.com) · [LinkedIn](https://linkedin.com/in/rdmilly)
